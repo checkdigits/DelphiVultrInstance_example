@@ -1,0 +1,44 @@
+inherited Form2_Macintosh: TForm2_Macintosh
+  DesignerMasterStyle = 1
+  inherited TabControl1: TTabControl
+    TabOrder = 0
+    Sizes = (
+      640s
+      309s)
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 213.000000000000000000
+      ExplicitSize.cy = 24.000000000000000000
+      inherited Label1: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Layout25: TLayout
+        inherited Label17: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited ListBox13: TListBox
+          Viewport.Width = 636.000000000000000000
+          Viewport.Height = 250.000000000000000000
+        end
+      end
+    end
+  end
+  inherited Rectangle1: TRectangle
+    inherited Image1: TImage
+      MultiResBitmap.Height = 853
+      MultiResBitmap.Width = 1280
+    end
+    inherited Image2: TImage
+      MultiResBitmap.Height = 135
+      MultiResBitmap.Width = 135
+    end
+    inherited Label10: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      inherited Label11: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited edtPAT: TEdit
+    TabOrder = 5
+  end
+end

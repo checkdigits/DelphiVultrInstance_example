@@ -1,0 +1,56 @@
+inherited Form2_Windows: TForm2_Windows
+  Caption = 'VULTR Instances API'
+  DesignerMasterStyle = 1
+  inherited TabControl1: TTabControl
+    TabOrder = 0
+    Sizes = (
+      640s
+      309s)
+    inherited TabItem1: TTabItem
+      Size.Width = 638.000000000000000000
+      Text = 'VULTR Instances'
+      ExplicitSize.cx = 213.000000000000000000
+      ExplicitSize.cy = 24.000000000000000000
+      inherited Label1: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited Layout25: TLayout
+        inherited Label17: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited ListBox13: TListBox
+          Viewport.Width = 636.000000000000000000
+          Viewport.Height = 250.000000000000000000
+        end
+      end
+    end
+  end
+  inherited Rectangle1: TRectangle
+    inherited Image1: TImage
+      MultiResBitmap.Height = 853
+      MultiResBitmap.Width = 1280
+    end
+    inherited Image2: TImage
+      MultiResBitmap.Height = 135
+      MultiResBitmap.Width = 135
+    end
+    inherited Label10: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Vultr'
+      inherited Label11: TLabel
+        Size.Width = 593.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited edtPAT: TEdit
+    TabOrder = 5
+  end
+  inherited RESTClient1: TRESTClient
+    Left = 392
+    Top = 304
+  end
+  inherited RESTRequest1: TRESTRequest
+    Accept = '['
+  end
+end
